@@ -5,5 +5,5 @@ num2 = float(input('Digite o segundo valor: '))
 
 sub = num1 - num2
 
-#Limita para duas casas decimais
+#Limita para duas casas decimais.
 print(f'\nA subtração é: {sub:.2f}\n')
