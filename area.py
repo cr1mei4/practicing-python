@@ -21,10 +21,13 @@ while opc != 4:
         area_triang = base * altura / 2
         print(f'\nO valor da área é: {area_triang:.2f}\n')
         opc = int(input("Selecione a figura que deseja calcular a área: "))
-    else:
+    elif opc == 3:
         raio = float(input('Digite o valor do raio: '))
         area_circ = 3.14*(raio**2)
         print(f'\nA área do círculo é: {area_circ:.2f}\n')
+        opc = int(input("Selecione a figura que deseja calcular a área: "))
+    else:
+        print('Opção inválida!')
         opc = int(input("Selecione a figura que deseja calcular a área: "))
 
 print('\n----------Fim do programa----------')
