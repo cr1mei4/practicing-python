@@ -10,9 +10,8 @@ opc = int(input("Selecione a figura que deseja calcular a área: "))
 
 while opc != 4:
     if opc == 1:
-        lado1 = float(input('Digite o valor do lado 1: '))
-        lado2 = float(input('Digite o valor do lado 2: '))
-        area_qua = lado1 * lado2
+        lado = float(input('Digite o valor do lado: '))
+        area_qua = lado ** 2
         print(f'\nO valor da área é: {area_qua:.2f}\n')
         opc = int(input("Selecione a figura que deseja calcular a área: "))
     elif opc == 2:
@@ -23,7 +22,7 @@ while opc != 4:
         opc = int(input("Selecione a figura que deseja calcular a área: "))
     elif opc == 3:
         raio = float(input('Digite o valor do raio: '))
-        area_circ = 3.14*(raio**2)
+        area_circ = 3.14 * (raio ** 2)
         print(f'\nA área do círculo é: {area_circ:.2f}\n')
         opc = int(input("Selecione a figura que deseja calcular a área: "))
     else:
