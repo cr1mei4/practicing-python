@@ -3,7 +3,7 @@ print('CÁLCULO DE ÁREAS DE FIGURAS\n'
 
 print('1-- Quadrado\n'
       '2-- Triângulo\n'
-      '3-- Circulo\n'
+      '3-- Círculo\n'
       '4-- Sair\n')
 
 opc = int(input("Selecione a figura que deseja calcular a área: "))
